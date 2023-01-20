@@ -9,6 +9,7 @@ button {
 
 button:hover {
     cursor: pointer;
+
 }
 
 .orange {
@@ -16,14 +17,29 @@ button:hover {
     color: white;
 }
 
+.orange:hover {
+    background-color: #f4c37e;
+    color: white;
+}
+
 .light-grey {
     background-color: #D4D4D2;
+}
+
+.light-grey:hover {
+    cursor: pointer;
+    background-color: #f5f5f2;
 }
 
 .dark-grey {
  background-color: #505050;
  color: white;
 }
+
+.dark-grey:hover {
+    cursor: pointer;
+    background-color: #918e8e;
+   }
 
 .numberZero {
     width: 45%;

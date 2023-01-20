@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import './App.css';
 import Calculator from './components/Calculator';
 import StoreCalculations from './store/storeCalculations'
@@ -5,9 +6,6 @@ import StoreCalculations from './store/storeCalculations'
 function App() {
   return (
     <div className="App">
-      <h1>
-          Calculadora By Gustavo Fonseca
-      </h1>
       <StoreCalculations>
         <Calculator />
       </StoreCalculations>
