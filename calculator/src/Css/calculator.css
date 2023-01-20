@@ -1,0 +1,15 @@
+.calculator {
+    background-color: #000;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.result {
+    background-color: #000;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    font-size: 3em;
+}
